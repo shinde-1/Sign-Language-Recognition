@@ -39,7 +39,7 @@ Images per class: ~3000
 - Softmax Output
 
 # Project Directory Structure
-.
+```
 ├── input
 │   ├── asl_alphabet_test
 │   │   └── asl_alphabet_test
@@ -68,7 +68,7 @@ Images per class: ~3000
     ├── preprocess_image.py
     ├── test.py
     └── train.py
-    
+```
 # Results
 
 - Training Accuracy: ~98%
