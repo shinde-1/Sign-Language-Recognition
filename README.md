@@ -38,6 +38,37 @@ Images per class: ~3000
 - Fully Connected Layers
 - Softmax Output
 
+# Project Directory Structure
+.
+├── input
+│   ├── asl_alphabet_test
+│   │   └── asl_alphabet_test
+│   │
+│   ├── asl_alphabet_train
+│   │   └── asl_alphabet_train
+│   │       ├── A
+│   │       ├── B
+│   │       ├── C
+│   │       └── ...
+│   │
+│   ├── preprocessed_image
+│   │   ├── A
+│   │   ├── B
+│   │   ├── C
+│   │   └── ...
+│   │
+│   └── data.csv
+│
+├── outputs
+│
+└── src
+    ├── cam_test.py
+    ├── cnn_models.py
+    ├── create_csv.py
+    ├── preprocess_image.py
+    ├── test.py
+    └── train.py
+    
 # Results
 
 - Training Accuracy: ~98%
